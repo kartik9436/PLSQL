@@ -45,7 +45,6 @@ BEGIN
     INSERT INTO food_menu (food_id, food_name, food_price)
     VALUES (seq_food_id.NEXTVAL, p_food_name, p_food_price);
     COMMIT;
-    DBMS_OUTPUT.PUT_LINE('Food item added to menu successfully.');
 END add_food_to_menu;
 /
 
@@ -68,11 +67,6 @@ BEGIN
     INSERT INTO orders (order_id, food_id, customer_name, quantity)
     VALUES (seq_order_id.NEXTVAL, p_food_id, p_customer_name, p_quantity);
     COMMIT;
-    DBMS_OUTPUT.PUT_LINE('Order placed successfully!');
-    DBMS_OUTPUT.PUT_LINE('Customer: ' || p_customer_name);
-    DBMS_OUTPUT.PUT_LINE('Food: ' || (SELECT food_name FROM food_menu WHERE food_id = p_food_id));
-    DBMS_OUTPUT.PUT_LINE('Quantity: ' || p_quantity);
-    DBMS_OUTPUT.PUT_LINE('Total Price: ' || (v_food_price * p_quantity));
 END place_order;
 /
 
