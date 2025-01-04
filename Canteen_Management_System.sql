@@ -127,17 +127,17 @@ END;
 /
 
 BEGIN
-    place_order('Alice', 1, 2);
-    place_order('Bob', 2, 1);
-    place_order('Charlie', 3, 3);
+    place_order('Mitanshu', 1, 2);
+    place_order('Nitin', 2, 1);
+    place_order('Bhavik', 3, 3);
 END;
 /
 
 BEGIN
-    vote_for_food('Alice', 1);
-    vote_for_food('Bob', 2);
-    vote_for_food('Charlie', 3);
-    vote_for_food('Alice', 2);
+    vote_for_food('Mitanshu', 1);
+    vote_for_food('Bhavik', 2);
+    vote_for_food('Nitin', 3);
+    vote_for_food('Mitanshu', 2);
 END;
 /
 
