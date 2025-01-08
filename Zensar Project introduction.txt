@@ -1,10 +1,15 @@
- Canteen Management System (PL/SQL Project)
+# Canteen Management System (PL/SQL Project)
 
-A Canteen Management System (CMS) using PL/SQL (Procedural Language/Structured Query Language) is a database-driven application designed to manage various aspects of a canteen or cafeteria in an institution like a school, college, office, or organization. The main objective of the system is to automate the operations of the canteen, including managing food items, orders, employee details, inventory, and payments. The CMS typically uses a back-end database powered by *PL/SQL to ensure data consistency, integrity, and efficiency in managing these operations.अखंडता
+# created by : Shinde Mitanshu Dipak
 
-Below is a detailed breakdown of the components, functionalities, and workflow of a Canteen Management System using PL/SQL.
+# College Name : Amrutvahini College of Engineering
 
- 1. Key Functionalities of the Canteen Management System
+## description :
+A Canteen Management System (CMS) using PL/SQL (Procedural Language/Structured Query Language) is a database-driven application designed to manage various aspects of a canteen or cafeteria in an institution like a school, college, office, or organization. The main objective of the system is to automate the operations of the canteen, including managing food items, orders, employee details, inventory, and payments. The CMS typically uses a back-end database powered by *PL/SQL to ensure data consistency, integrity, and efficiency in managing these operations.
+
+
+
+ ## Key Functionalities of the Canteen Management System
 
 1.1 Food Item Management
 - Adding new food items: New dishes or snacks are added to the system with details such as name, category (vegetarian/non-vegetarian), price, and stock quantity.
@@ -40,8 +45,8 @@ Below is a detailed breakdown of the components, functionalities, and workflow o
 - Admin and User roles: Different user roles (Admin, Employee, Customer) have different access privileges.
 - Login/Logout system Users must authenticate themselves to access the system, ensuring security.
 
----
- 2. Database Schema for the Canteen Management System**
+
+ ## Database Schema for the Canteen Management System**
 
 The Canteen Management System would require a **relational database schema** to store and organize its data efficiently. Here’s an outline of a possible schema:
 
