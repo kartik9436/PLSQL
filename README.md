@@ -2,7 +2,7 @@
 
 # created by : Shinde Mitanshu Dipak
 
-# College Name : Amrutvahini College of Engineering
+# College Name : Amrutvahini College of Engineering Sangamner
 
 ## description :
 A Canteen Management System (CMS) using PL/SQL (Procedural Language/Structured Query Language) is a database-driven application designed to manage various aspects of a canteen or cafeteria in an institution like a school, college, office, or organization. The main objective of the system is to automate the operations of the canteen, including managing food items, orders, employee details, inventory, and payments. The CMS typically uses a back-end database powered by *PL/SQL to ensure data consistency, integrity, and efficiency in managing these operations.
