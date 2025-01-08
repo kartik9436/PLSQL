@@ -114,3 +114,6 @@ The Canteen Management System would require a **relational database schema** to 
 ### 6. **Conclusion**
 
 A **Canteen Management System** using PL/SQL helps automate and streamline the processes involved in running a canteen, from inventory and employee management to order processing and payment tracking. The system ensures better management of food items, stock levels, orders, and payments, while also offering insights through reporting features. With PL/SQL procedures, functions, and triggers, the backend becomes highly efficient in terms of data management and transaction handling.
+
+
+# Guidance By : Aniruddha Gaikwad
